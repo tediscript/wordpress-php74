@@ -8,9 +8,9 @@ on:
     branches:
       - main
   workflow_dispatch:
-  push:
-    paths:
-      - Dockerfile
+    push:
+      paths:
+        - Dockerfile
 
 jobs:
   build:
