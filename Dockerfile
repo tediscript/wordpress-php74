@@ -39,8 +39,6 @@ RUN a2enmod vhost_alias
 # Copy custom virtual host configuration
 # COPY ./000-default.conf /etc/apache2/sites-available/000-default.conf
 
-# Expose port 80
-EXPOSE 80
 
 # Start the Apache server
 CMD ["apache2-foreground"]
